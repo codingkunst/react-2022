@@ -26,8 +26,12 @@
 - `event.target` - **target**은 이벤트를 유발시킨 태그를 가리킴
 
 ### state
+- [ Prop → state → return ]
+- prop과 함께 컴포넌트 함수를 다시 실행해서 새로운 return 값을 만들어주는 데이터
+  - `prop` - 컴포넌트를 사용하는 외부자를 위한 데이터
+  - `sate` - 컴포넌트를 만드는 내부자를 위한 데이터
 
-
+## 대부분의 애플리케이션은 CREATE(생성) READ(읽기) UPDATE(수정) DELETE(삭제) 4가지 기능을 가지고 있다
 ### Create
 
 
